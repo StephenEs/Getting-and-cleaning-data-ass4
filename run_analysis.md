@@ -13,7 +13,7 @@
 # 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 ###### 1. Merge the training and the test sets to create one data set.
-setwd('C:/Users/rjongstr/Desktop/Data Course/Getting & Cleaning Data/Week 4/project/UCI HAR Dataset');
+setwd('C:/Users/Stephen/Desktop/Data Course/Getting & Cleaning Data/Ass4/UCI HAR Dataset');
 
 # Import training data from files & Name the columns 
 features <- read.table('./features.txt',header=FALSE);
